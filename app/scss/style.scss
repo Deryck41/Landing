@@ -111,14 +111,17 @@ body{
 	}
 }
 
+.row-container{
+	display: flex;
+	flex-direction: row;
+}
+
 .about{
 	background-color: #000;
 	padding-bottom: 8.85vw;
 
-	&__container{
+	.row-container{
 		margin-left: 23.8vw;
-		display: flex;
-		flex-direction: row;
 	}
 
 	&__left-column{
@@ -149,6 +152,12 @@ body{
 		margin-left: 15vw;
 		margin-top: 5.75vw;
 		background-color: #131618;
+	}
+
+	.article{
+			margin-top: 11vw;
+			margin-left: 3.9vw;
+			transform: scale(1.06, 1.02);
 	}
 }
 
@@ -186,7 +195,48 @@ body{
 	font-size: 1.065vw;
 	inline-size: 22vw;
 	line-height: 1.42vw;
-	margin-top: 11vw;
-	margin-left: 3.9vw;
-	transform: scale(1.06, 1.02);
+	&_color-black{
+		color: #000;
+	}
+}
+
+.rent{
+	padding-top: 2vw;
+	padding-bottom: 4.8vw;
+	background-color: #F1F1F1;;
+
+	.title-text{
+		color: #000;
+		font-size: 2.46vw;
+	}
+	.background-title{
+		color: rgba(19, 22, 24, 0.08);
+		font-size: 5vw;
+		margin-top: -1.9vw;
+		&_size-big{
+			font-size: 8.2vw;
+			display: inline-block;
+			padding-top: 0.5vw;
+		}
+	}
+	.row-container{
+		margin-left: 14vw;
+		margin-top: 2.9vw;
+	}
+
+	.article{
+		margin-top: 11vw;
+		margin-left: 3.44vw;
+		inline-size: 28vw;
+		line-height: 1.9vw;
+		font-size: 1.55vw;
+	}
+	.article-img{
+		margin-left: 4.4vw;
+	}
+}
+
+.article-img{
+	width: 31.5vw;
+	margin-top: -2.1vw;
 }
