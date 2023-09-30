@@ -1,1 +1,192 @@
 @import "nullstyle.scss";
+@import "fonts.scss";
+
+// * {
+// 	color: #FF3232 !important;
+// 	}
+
+body{
+	font-family: Athelas;
+	font-style: normal;
+}
+
+.head{
+	background-image: url('../img/head-background.png');
+	background-size: cover;
+	font-family: Athelas;
+	font-style: normal;
+
+	&__container{
+		margin-left: 16.4vw;
+		padding-top: 1.25vw;
+		padding-bottom: 6.2vw;
+	}
+
+	&__top{
+		margin-left:0.95vw;
+		display: flex;
+		flex-direction: row;
+	}
+
+	&__logo img{
+		width: 9.627vw;
+	}
+
+	&__menu-list{
+		display: flex;
+		flex-direction: row;
+		margin-left: 14vw;
+		margin-top: 2.97vw;
+	}
+
+	&__menu-item{
+		margin-left: 3.5vw;
+	}
+
+	&__menu-link{
+		color: #FFF;
+		font-style: normal;
+		font-size: 1.03vw;
+	}
+
+	&__middle{
+		display: flex;
+		flex-direction: row;
+	}
+
+	&__title{
+		position: relative;
+		margin-top:1.6vw;
+	}
+	&__title-background-text{
+		position: absolute;
+		color: rgba(65,65,65, 0.3);
+		z-index: 0;
+		max-width: 50vw;
+		overflow-wrap: break-word;
+		inline-size: 30vw;
+		display: flex;
+		font-size: 12vw;
+	}
+	&__title-naming{
+		position: inherit;
+		padding-top: 6.6vw;
+		padding-left: 1vw;
+		color: #FFF;
+		display: flex;
+		z-index: 100;
+		inline-size: 40vw;
+		overflow-size: break-word;
+		font-size: 4.37vw;
+		line-height:4.8vw;
+	}
+	&__clock-img{
+		width: 33.05vw;
+		height: 30.3vw;
+		margin-left: -4.1vw;
+		margin-top: -0.3vw;
+	}
+}
+
+.watch-video{
+	margin-top: 2.8vw;
+	margin-left: 19.9vw;
+	display: flex;
+	flex-direction: row;
+
+	&__label{
+		padding-left: 1vw;
+		padding-top: 1.24vw;
+		line-height:1vw;
+		font-size: 0.92vw;
+		color: #FFF;
+	}
+}
+
+.watch-button{
+	display: block;
+
+	&__triangle{
+		width: 4.46vw;
+	}
+}
+
+.about{
+	background-color: #000;
+	padding-bottom: 8.85vw;
+
+	&__container{
+		margin-left: 23.8vw;
+		display: flex;
+		flex-direction: row;
+	}
+
+	&__left-column{
+		position: relative;
+	}
+
+	&__right-column{
+		margin-left: 28.2vw;
+		margin-top: 7.1vw;
+	}
+
+	&__first-img{
+		position: absolute;
+		width: 23.8vw;
+		margin-top: -6.2vw;
+	}
+	&__second-img{
+		position: absolute;
+		margin-top: 17.05vw;
+		margin-left: -8.4vw;
+		width: 25.28vw;
+
+	}
+	&__rectangle{
+		position: absolute;
+		width: 11.1vw;
+		height: 29vw;
+		margin-left: 15vw;
+		margin-top: 5.75vw;
+		background-color: #131618;
+	}
+}
+
+.title{
+	position: relative;
+}
+
+.title-text{
+	padding-top: 0.8vw;
+	position: absolute;
+	margin-left: 3.2vw;
+	margin-top: 0.65vw;
+	font-size: 2.5vw;
+	color: #FFF;
+	inline-size: 15vw;
+	&_size-big{
+		font-size: 4.4vw;
+		line-height: 3.5vw;
+	}
+}
+
+.background-title{
+	position: absolute;
+	color: rgba(255, 255, 255, 0.08);
+	font-size: 4.1vw;
+	inline-size: 25vw;
+	&_size-big{
+		font-size: 6.7vw;
+		line-height: 4.7vw;
+	}
+}
+
+.article{
+	color: #FFF;
+	font-size: 1.065vw;
+	inline-size: 22vw;
+	line-height: 1.42vw;
+	margin-top: 11vw;
+	margin-left: 3.9vw;
+	transform: scale(1.06, 1.02);
+}

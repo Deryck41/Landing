@@ -68,10 +68,17 @@ gulp.task('img', function() {  // Обработка картинок
 	.pipe(gulp.dest('dist/img'))
 });
 
+gulp.task('fonts-dest', function(){
+	return gulp.src('app/fonts/*')
+	.pipe(gulp.dest('dist/fonts/'));
+});
+
 gulp.task('watch', function() { // Создаём таск наблюдения
 	gulp.watch('app/scss/style.+(scss|sass)', gulp.parallel('scss'));
 	gulp.watch('app/*.html', gulp.parallel('html'));
 	gulp.watch('app/js/*.js', gulp.parallel('scripts-all'));
 	gulp.watch('app/js/script.js', gulp.parallel('scripts-min'));
+	gulp.watch('app/fonts/*', gulp.parallel('fonts-dest'));
+	gulp.watch('app/img/*', gulp.parallel('img'));
 });
-gulp.task('dfl', gulp.parallel('html', 'scss', 'scripts-all', 'scripts-min', 'browser-sync', 'watch', 'img'));
+gulp.task('dfl', gulp.parallel('html', 'scss', 'scripts-all', 'scripts-min', 'browser-sync', 'watch', 'img', 'fonts-dest'));
