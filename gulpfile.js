@@ -74,7 +74,7 @@ gulp.task('fonts-dest', function(){
 });
 
 gulp.task('watch', function() { // Создаём таск наблюдения
-	gulp.watch('app/scss/style.+(scss|sass)', gulp.parallel('scss'));
+	gulp.watch('app/scss/*.+(scss|sass)', gulp.parallel('scss'));
 	gulp.watch('app/*.html', gulp.parallel('html'));
 	gulp.watch('app/js/*.js', gulp.parallel('scripts-all'));
 	gulp.watch('app/js/script.js', gulp.parallel('scripts-min'));

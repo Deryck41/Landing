@@ -1,0 +1,160 @@
+@media (max-width: 769px) and (min-width: 481px) {
+	body{
+		overflow-x: hidden;
+	}
+	.pc-break{
+		display: none;
+	}
+	.head{
+
+		background-image: url('../img/head-background-tablet.png');
+
+		&__container{
+			margin-left: 1.6vw;
+			padding-bottom: 0;
+		}
+		&__menu-list{
+			margin-left: 3.6vw;
+			margin-top: 5.5vw;
+		}
+
+		&__top{
+			margin-top: 3.6vw;
+		}
+		&__logo img{
+			width: 19vw;
+		}
+		&__menu-link{
+			font-size: 2.35vw;
+		}
+		&__menu-item{
+			margin-left: 4.15vw;
+			&_less-margin{
+				margin-left: 3.9vw;
+			}
+		}
+
+		&__title{
+			margin-top: 5.3vw;
+		}
+		&__title-background-text{
+			line-height: 25vw;
+			font-size: 26vw;
+		}
+		&__title-naming{
+			font-size: 9.4vw;
+			inline-size: 80vw;
+			line-height: 10.5vw;
+			padding-top: 14vw;
+			padding-left: 6.3vw;
+		}
+		&__middle{
+			flex-direction: column;
+		}
+
+		&__left-column{
+			position: relative;
+			padding-bottom: 65.5vw;
+		}
+
+		&__clock-img{
+			position: absolute;
+			margin-top: 51.8vw;
+			margin-left: 6.6vw;
+			width: 83.5vw;
+			height: 76.5vw;
+		}
+
+		.watch-video{
+			margin-top: 10.4vw;
+			margin-left: 6.6vw;
+
+			&__label{
+				padding-left: 2.55vw;
+				padding-top: 3.3vw;
+				font-size: 2.36vw;
+				line-height: 2.6vw;
+				inline-size: 20vw;
+			}
+		}
+
+		.watch-button{
+			&__triangle{
+				width: 11.3vw;
+			}
+		}
+	}
+
+	.title-text	{
+		font-size: 4.9vw;
+		inline-size: 50vw;
+		line-height: 8vw;
+		&_size-big{
+			font-size: 9.75vw;
+		}
+	}
+
+	.background-title{
+		font-size: 9.1vw;
+		inline-size: 60vw;
+		line-height: 11.5vw;
+		&_size-big{
+			font-size: 15.6vw;
+		}
+	}
+
+	.about{
+		padding-top: 7.2vw;
+		padding-bottom: 69.8vw;
+		.row-container{
+			flex-direction: column-reverse;
+			margin-left: 0;
+		}
+		&__left-column{
+			margin-left: 8vw;
+			margin-top: -51.5vw;
+		}
+
+		&__first-img{
+			content: url('../img/photo-about-1-tablet.png');
+			width: 36.4vw;
+			height: 38.5vw;
+		}
+
+		&__second-img{
+			content: url('../img/photo-about-2-tablet.png');
+			margin-left: -5.4vw;
+			margin-top: 24.3vw;
+			width: 38.8vw;
+			height: 28.6vw;
+		}
+
+		&__rectangle{
+			width: 25.7vw;
+			margin-top: 9.4vw;
+			height: 37.9vw;
+		}
+		&__right-column{
+			margin-top: 2.5vw;
+			margin-left: 0;
+		}
+		.title{
+			margin-left: 2.1vw;
+			padding-bottom: 10vw;
+		}
+		.title-text	{
+			margin-top: 2.7vw;
+			margin-left: 6vw;
+		}
+
+		.article{
+			margin-left: 52.6vw;
+			margin-top: 22.2vw;
+			inline-size: 44vw;
+		}
+	}
+	.article{
+		font-size: 2.47vw;
+		line-height: 3.32vw;
+	}
+}
