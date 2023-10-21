@@ -1154,4 +1154,180 @@ a {
     font-size: 2.47vw;
     line-height: 3.32vw;
   }
+  .article-img {
+    width: 44vw;
+  }
+  .rent {
+    padding-bottom: 27.6vw;
+  }
+  .rent .row-container {
+    margin-top: 7vw;
+    margin-left: 4.8vw;
+  }
+  .rent .title-text {
+    line-height: 7.9vw;
+    margin-top: 2.5vw;
+    inline-size: 10vw;
+    font-size: 4.9vw;
+  }
+  .rent .background-title {
+    margin-left: -2.8vw;
+    inline-size: 9vw;
+    font-size: 9.1vw;
+    margin-top: 0vw;
+  }
+  .rent .background-title_size-big {
+    font-size: 15.6vw;
+  }
+  .rent .article {
+    font-size: 2.6vw;
+    inline-size: 40vw;
+    line-height: 3.4vw;
+    margin-top: 29.2vw;
+    margin-left: 3vw;
+  }
+  .rent .right-column {
+    margin-top: 27.4vw;
+    margin-left: -1vw;
+  }
+  .rent .article-img {
+    content: url("../img/photo-rent-tablet.png");
+  }
+  .rent .background-rect {
+    width: 43.6vw;
+    height: 32.6vw;
+  }
+  .stages {
+    padding-bottom: 10.8vw;
+    position: relative;
+  }
+  .stages .title {
+    position: absolute;
+    margin-top: 4.3vw;
+  }
+  .stages .title-text {
+    margin-left: 3.4vw;
+  }
+  .stages .title-text_size-big {
+    display: block;
+    margin-top: 0.4vw;
+    margin-left: -14.2vw;
+  }
+  .stages .background-title {
+    margin-top: -2vw;
+  }
+  .stages .background-title_size-big {
+    margin-left: -26.8vw;
+  }
+  .stages .pseudo-background {
+    display: none;
+  }
+  .stages .container-box {
+    display: block;
+    margin-left: -3.7vw;
+    padding-top: 33vw;
+    padding-left: -4vw;
+  }
+  .stages .card-img {
+    width: 46.2vw;
+    height: 24.2vw;
+  }
+  .stages .card-img_size-big {
+    margin-left: 0.4vw;
+    width: 46.4vw;
+  }
+  .stages .card-img_anchor-left {
+    margin-left: 0.4vw;
+  }
+  .stages .card-container_orient-left {
+    margin-left: -1vw;
+    margin-top: 3.8vw;
+  }
+  .stages .card-container_orient-left .card {
+    margin-left: 2.8vw;
+  }
+  .stages .bottom-line {
+    margin-top: 2.5vw;
+    margin-left: 0.6vw;
+  }
+  .stages .card {
+    margin-left: 2.6vw;
+  }
+  .stages .card__number {
+    font-size: 7vw;
+  }
+  .stages .card__article {
+    font-size: 2.35vw;
+    line-height: 3vw;
+    inline-size: 37vw;
+    margin-left: 1vw;
+    margin-top: 0.2vw;
+  }
+  .stages .card__article_orient-right {
+    margin-left: 1.2vw;
+  }
+  .stages .card__article_anchor-right {
+    margin-left: 0.6vw;
+  }
+  .stages .card__article_extr-margin {
+    margin-left: 0.8vw;
+  }
+  .cooperation {
+    padding-bottom: 45.6vw;
+  }
+  .cooperation .row-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .cooperation .right-column {
+    margin-left: 0;
+  }
+  .cooperation .left-column {
+    margin-top: -20.4vw;
+    margin-left: 51.4vw;
+  }
+  .cooperation .title {
+    margin-left: 2vw;
+  }
+  .cooperation .title-text {
+    font-size: 8.35vw;
+    margin-left: 5.8vw;
+    margin-top: 4.2vw;
+  }
+  .cooperation .background-title {
+    font-size: 12.4vw;
+    margin-top: 5.5vw;
+  }
+  .cooperation .article-img {
+    width: 42.8vw;
+  }
+  .cooperation .background-rect {
+    width: 43.4vw;
+    margin-top: 2.4vw;
+    height: 30.4vw;
+  }
+  .cooperation .article {
+    font-size: 3.12vw;
+    line-height: 3.5vw;
+    inline-size: 50vw;
+    margin-top: 24.4vw;
+    margin-left: 8vw;
+  }
+  .cooperation__contact {
+    margin-top: 4vw;
+    margin-left: 8vw;
+  }
+  .cooperation__phone-icon {
+    margin-top: 0.5vw;
+    margin-left: 0.2vw;
+    width: 3.15vw;
+  }
+  .cooperation__phone-number {
+    display: inline-block;
+    font-size: 3.15vw;
+    margin-top: 0.2vw;
+    color: #000;
+  }
 }

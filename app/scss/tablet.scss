@@ -157,4 +157,188 @@
 		font-size: 2.47vw;
 		line-height: 3.32vw;
 	}
+
+	.article-img{
+		width: 44vw;
+	}
+
+	.rent{
+		padding-bottom: 27.6vw;
+		.row-container{
+			margin-top: 7vw;
+			margin-left: 4.8vw;
+		}
+		.title-text{
+			line-height: 7.9vw;
+			margin-top: 2.5vw;
+			inline-size: 10vw;
+			font-size: 4.9vw;
+		}
+		.background-title{
+			margin-left: -2.8vw;
+			inline-size: 9vw;
+			font-size: 9.1vw;
+			margin-top: 0vw;
+			&_size-big{
+				font-size: 15.6vw;
+			}
+		}
+		.article{
+			font-size: 2.6vw;
+			inline-size: 40vw;
+			line-height: 3.4vw;
+			margin-top: 29.2vw;
+			margin-left: 3vw;
+		}
+		.right-column{
+			margin-top: 27.4vw;
+			margin-left: -1vw;
+		}
+		.article-img{
+			content: url('../img/photo-rent-tablet.png');
+		}
+		.background-rect{
+			width: 43.6vw;
+			height: 32.6vw;
+		}
+	}
+
+	.stages{
+		padding-bottom: 10.8vw;
+		position: relative;
+		.title{
+			position: absolute;
+			margin-top: 4.3vw;
+		}
+		.title-text{
+			margin-left: 3.4vw;
+			&_size-big{
+				display: block;
+				margin-top: 0.4vw;
+				margin-left: -14.2vw;
+			}
+		}
+
+		.background-title{
+			margin-top: -2vw;
+			&_size-big{
+				margin-left: -26.8vw;
+			}
+		}
+		.pseudo-background{
+			display: none;
+		}
+		.container-box{
+			display: block;
+			margin-left: -3.7vw;
+			padding-top: 33vw;
+			padding-left: -4vw;
+		}
+
+		.card-img{
+			width: 46.2vw;
+			height: 24.2vw;
+			&_size-big{
+				margin-left: 0.4vw;
+				width: 46.4vw;
+			}
+			&_anchor-left{
+				margin-left: 0.4vw;
+			}
+		}
+		.card-container{
+			&_orient-left{
+				margin-left: -1vw;
+				margin-top: 3.8vw;
+				.card{
+					margin-left: 2.8vw;
+				}
+			}
+		}
+		.bottom-line{
+			margin-top: 2.5vw;
+			margin-left: 0.6vw;
+		}
+		.card{
+			margin-left: 2.6vw;
+			&__number{
+				font-size: 7vw;
+			}
+			&__article{
+				font-size: 2.35vw;
+				line-height: 3vw;
+				inline-size: 37vw;
+				margin-left: 1vw;
+				margin-top: 0.2vw;
+				&_orient-right{
+					margin-left: 1.2vw;
+				}
+				&_anchor-right{
+					margin-left:0.6vw;
+				}
+				&_extr-margin{
+					margin-left: 0.8vw;
+				}
+			}
+		}
+	}
+	.cooperation{
+		padding-bottom: 45.6vw;
+		.row-container{
+			flex-direction: column-reverse;
+		}
+		.right-column{
+			margin-left: 0;
+		}
+		.left-column{
+			margin-top: -20.4vw;
+			margin-left: 51.4vw;
+		}
+		.title{
+			margin-left: 2vw;
+		}
+		.title-text{
+			font-size: 8.35vw;
+			margin-left: 5.8vw;
+			margin-top: 4.2vw;
+		}
+		.background-title{
+			font-size: 12.4vw;
+			margin-top: 5.5vw;
+		}
+
+		.article-img{
+			width: 42.8vw;
+		}
+		.background-rect{
+			width: 43.4vw;
+			margin-top: 2.4vw;
+			height: 30.4vw;
+		}
+
+		.article{
+			font-size: 3.12vw;
+			line-height: 3.5vw;
+			inline-size: 50vw;
+			margin-top: 24.4vw;
+			margin-left: 8vw;
+		}
+
+		&__contact{
+			margin-top: 4vw;
+			margin-left: 8vw;
+		}
+
+		&__phone-icon{
+			margin-top: 0.5vw;
+			margin-left: 0.2vw;
+			width: 3.15vw;
+		}
+		&__phone-number{
+			display: inline-block;
+			font-size: 3.15vw;
+			margin-top: 0.2vw;
+			color: #000;
+		}
+	}
 }
