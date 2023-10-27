@@ -26,7 +26,7 @@ a{
 	}
 
 	&__top{
-		margin-left:0.95vw;
+		margin-left: .95vw;
 		display: flex;
 		flex-direction: row;
 	}
@@ -63,7 +63,7 @@ a{
 	}
 	&__title-background-text{
 		position: absolute;
-		color: rgba(65,65,65, 0.3);
+		color: rgba(65,65,65, .3);
 		z-index: 0;
 		max-width: 50vw;
 		overflow-wrap: break-word;
@@ -101,7 +101,7 @@ a{
 		padding-left: 1vw;
 		padding-top: 1.24vw;
 		line-height:1vw;
-		font-size: 0.92vw;
+		font-size: .92vw;
 		color: #FFF;
 		display: inline-block;
 		inline-size: 11vw;
@@ -175,10 +175,10 @@ a{
 }
 
 .title-text{
-	padding-top: 0.8vw;
+	padding-top: .8vw;
 	position: absolute;
 	margin-left: 3.2vw;
-	margin-top: 0.65vw;
+	margin-top: .65vw;
 	font-size: 2.5vw;
 	color: #FFF;
 	inline-size: 15vw;
@@ -201,7 +201,7 @@ a{
 
 .background-title{
 	position: absolute;
-	color: rgba(255, 255, 255, 0.08);
+	color: rgba(255, 255, 255, .08);
 	font-size: 4.1vw;
 	inline-size: 25vw;
 	&_size-big{
@@ -212,7 +212,7 @@ a{
 		font-size: 5.1vw;
 	}
 	&_color-black{
-		color: rgba(19, 22, 24, 0.08);
+		color: rgba(19, 22, 24, .08);
 	}
 }
 
@@ -247,7 +247,7 @@ a{
 		&_size-big{
 			font-size: 8.2vw;
 			display: inline-block;
-			padding-top: 0.5vw;
+			padding-top: .5vw;
 		}
 	}
 	.row-container{
@@ -274,11 +274,11 @@ a{
 
 .background-rect{
 	position: absolute;
-	background-color: rgba(213, 213, 213, 0.30);
+	background-color: rgba(213, 213, 213, .30);
 	width: 31.3vw;
 	height: 22.2vw;
 	margin-left: 7vw;
-	margin-top: 0.6vw;
+	margin-top: .6vw;
 }
 
 
@@ -298,7 +298,7 @@ a{
 		inline-size: 30vw;
 		text-align: center;
 		&_size-big{
-			padding-left: 0.4vw;
+			padding-left: .4vw;
 		}
 	}
 
@@ -347,7 +347,7 @@ a{
 }
 
 .pseudo-background{
-	color: rgba(255, 255, 255, 0.08);
+	color: rgba(255, 255, 255, .08);
 	font-size: 10.2vw;
 	&_anchor{
 		&-right{
@@ -378,10 +378,10 @@ a{
 		padding-left: 1.13vw;
 		color: #FFF;
 		&_orient-right{
-			padding-left: 0.5vw;
+			padding-left: .5vw;
 		}
 		&_anchor-right{
-			padding-left: 0.9vw;
+			padding-left: .9vw;
 		}
 	}
 }
@@ -398,7 +398,7 @@ a{
 	padding-bottom: 8.6vw;
 	.left-column{
 		margin-left: 17.5vw;
-		margin-top: 0.6vw;
+		margin-top: .6vw;
 	}
 	.right-column{
 		margin-left: 34vw;
@@ -410,7 +410,7 @@ a{
 	}
 
 	.article-img{
-		margin-top: 0.8vw;
+		margin-top: .8vw;
 	}
 
 	.title-text{
@@ -429,16 +429,16 @@ a{
 
 	&__contact{
 		margin-left: 3.7vw;
-		margin-top: 0.3vw;
+		margin-top: .3vw;
 	}
 
 	&__phone-icon{
-		margin-top: 0.3vw;
+		margin-top: .3vw;
 		width: 1.3vw;
 	}
 
 	&__phone-number{
-		margin-left: 0.3vw;
+		margin-left: .3vw;
 		font-size: 1.6vw;
 	}
 }
@@ -466,7 +466,7 @@ a{
 			margin-left: 14vw;
 			margin-top: -0.7vw;
 			.background-title{
-				margin-left: 0.8vw;
+				margin-left: .8vw;
 				inline-size: 18vw;
 				overflow-wrap: break-word;
 			}
@@ -477,7 +477,7 @@ a{
 		margin-top: -0.3vw;
 		.background-title{
 			margin-left: 1vw;
-			margin-top: 0.6vw;
+			margin-top: .6vw;
 		}
 	}
 
@@ -531,8 +531,8 @@ a{
 		margin-left: 14vw;
 		margin-top: 1.3vw;
 		.background-title{
-			margin-left: 0.4vw;
-			margin-top: 0.7vw;
+			margin-left: .4vw;
+			margin-top: .7vw;
 		}
 	}
 
@@ -541,14 +541,14 @@ a{
 	}
 	.left-ul{
 		margin-left: 19vw;
-		margin-top: 0.3vw;
+		margin-top: .3vw;
 		li::before{
 			margin-right: 1vw;
 		}
 	}
 
 	.right-ul{
-		margin-top: 0.4vw;
+		margin-top: .4vw;
 		margin-left: 3.4vw;
 		li::before{
 			margin-right: 1.1vw;
@@ -596,14 +596,14 @@ a{
 	.title{
 		text-align: center;
 		margin-left: 32vw;
-		margin-top: 0.5vw;
+		margin-top: .5vw;
 	}
 	.title-text{
 		margin-left: 7vw;
 		margin-top: 2.2vw;
 		inline-size: 20vw;
 		&_size-big{
-			margin-left: 0.2vw;
+			margin-left: .2vw;
 			margin-top: -.8vw;
 		}
 	}
@@ -629,7 +629,7 @@ a{
 	}
 	.date-container{
 		&__month{
-			margin-left: 0.1vw;
+			margin-left: .1vw;
 		}
 	}
 	.news-article{
@@ -651,7 +651,7 @@ a{
 		backgroun-color: transparent;
 		box-shadow: none;
 		height: 2.55vw;
-		font-size: 0.72vw;
+		font-size: .72vw;
 		width: 9.9vw;
 		border: 1px solid #000;
 	}
@@ -721,12 +721,12 @@ a{
 	}
 	.contacts-item{
 		display: block;
-		margin-top: 0.8vw;
+		margin-top: .8vw;
 		&_less-margin{
 			margin-top: -0.1vw;
 		}
 		&_a-bit-margin{
-			margin-top: 0.5vw;;
+			margin-top: .5vw;;
 		}
 	}
 	.contacts-items{
@@ -764,10 +764,10 @@ a{
 }
 
 .contacts-icon{
-	width: 0.95vw;
+	width: .95vw;
 	&_small{
-		width: 0.75vw;
-		height: 0.9vw;
+		width: .75vw;
+		height: .9vw;
 		margin-left: .1vw;
 	}
 }
@@ -780,7 +780,7 @@ a{
 	width: 15vw;
 }
 .contacts-button{
-	font-size: 0.715vw;
+	font-size: .715vw;
 	color: #fff;
 	display: block;
 }
@@ -797,7 +797,7 @@ a{
 	}
 
 	&__item{
-		margin-top: 0.75vw;
+		margin-top: .75vw;
 	}
 
 	.logo-container{
