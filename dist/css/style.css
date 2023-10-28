@@ -1464,4 +1464,78 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .news {
+    padding-bottom: 14.7vw;
+  }
+  .news .title {
+    margin-top: 8vw;
+    margin-left: 24.8vw;
+  }
+  .news .title .title-text {
+    text-align: center;
+    line-height: 6.4vw;
+    inline-size: 34.6vw;
+  }
+  .news .title .background-title {
+    margin-left: -1.8vw;
+    margin-top: -0.8vw;
+    line-height: 10.4vw;
+    text-align: center;
+    inline-size: 53.6vw;
+  }
+  .news .news-container {
+    margin-top: 37.4vw;
+    margin-left: -0.1vw;
+  }
+  .news__item {
+    margin-left: 2.6vw;
+  }
+  .news .news-img {
+    width: 46.2vw;
+    height: 24.5vw;
+  }
+  .news .news-description {
+    margin-top: 2.8vw;
+  }
+  .news .date-container__number {
+    font-size: 6.8vw;
+  }
+  .news .date-container__month {
+    font-size: 2.8vw;
+    margin-left: 0.4vw;
+  }
+  .news .date-container__month-extra-margin-top {
+    margin-top: 0.2vw;
+  }
+  .news .news-article {
+    font-size: 2.35vw;
+    line-height: 3vw;
+    inline-size: 34.2vw;
+    margin-top: 1.7vw;
+    margin-left: 2.3vw;
+  }
+  .news .news-article .inl-s-l {
+    inline-size: 36vw;
+    display: inline-block;
+  }
+  .news .news-article_anchor-left {
+    margin-top: 1.5vw;
+    margin-left: 2.8vw;
+  }
+  .news .news-link {
+    font-size: 2.35vw;
+    margin-left: 8.2vw;
+    margin-top: 1.6vw;
+  }
+  .news .news-link-extr-margin {
+    margin-left: 9.3vw;
+    margin-top: 1.9vw;
+  }
+  .news .news-expand-button {
+    margin-left: 37.6vw;
+    margin-top: 4.5vw;
+    width: 24.8vw;
+    height: 6.4vw;
+    font-size: 1.83vw;
+  }
 }
