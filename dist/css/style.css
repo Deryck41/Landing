@@ -183,6 +183,10 @@ a {
   margin-top: -0.3vw;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .watch-video {
   margin-top: 2.8vw;
   margin-left: 19.9vw;
@@ -1007,7 +1011,7 @@ a {
   height: 1.435vw;
 }
 
-@media (max-width: 769px) and (min-width: 481px) {
+@media screen and (max-width: 769px) {
   body {
     overflow-x: hidden;
   }
@@ -1537,5 +1541,118 @@ a {
     width: 24.8vw;
     height: 6.4vw;
     font-size: 1.83vw;
+  }
+  .contacts {
+    padding-bottom: 77vw;
+  }
+  .contacts .contacts-border {
+    width: 46.6vw;
+    height: 72.9vw;
+  }
+  .contacts .contacts-form {
+    margin-left: 2.4vw;
+    margin-top: 8.9vw;
+  }
+  .contacts .title-text {
+    margin-left: 5.4vw;
+    margin-top: 3.6vw;
+    font-size: 6.25vw;
+  }
+  .contacts .background-title {
+    margin-top: 3.6vw;
+  }
+  .contacts .contacts-items {
+    margin-top: 13.4vw;
+    margin-left: 5vw;
+  }
+  .contacts .contacts-desc {
+    font-size: 2.6vw;
+    inline-size: 30vw;
+  }
+  .contacts .contacts-desc_extra-space {
+    margin-left: 0.6vw;
+    line-height: 3.6vw;
+  }
+  .contacts .contacts-item {
+    margin-top: 2.2vw;
+    margin-left: 0.4vw;
+  }
+  .contacts .contacts-item .contacts-desc {
+    margin-left: 0.9vw;
+  }
+  .contacts .contacts-item-non-m-left {
+    margin-left: 0;
+  }
+  .contacts .contacts-item-non-m-left .contacts-desc {
+    margin-left: 0.7vw;
+  }
+  .contacts .contacts-item_less-margin {
+    margin-top: 3.9vw;
+  }
+  .contacts .contacts-item_less-margin .contacts-icon {
+    margin-top: 0.2vw;
+  }
+  .contacts .contacts-item_a-bit-margin {
+    margin-top: 2vw;
+  }
+  .contacts .contacts-group {
+    margin-top: 2.8vw;
+  }
+  .contacts .contacts-button {
+    margin-top: 52.2vw;
+    margin-left: 13.6vw;
+    font-size: 1.84vw;
+  }
+  .contacts .button-border {
+    margin-top: 50vw;
+    margin-left: 4.5vw;
+    width: 37.9vw;
+  }
+  .contacts-icon {
+    width: 2.4vw;
+  }
+  .contacts-icon_small {
+    width: 3vw;
+    height: 2.3vw;
+    margin-top: 0.4vw;
+  }
+  .contacts-icon-extr-m-t {
+    margin-top: 0.6vw;
+  }
+  .footer {
+    padding-bottom: 6vw;
+  }
+  .footer .footer-logo {
+    margin-left: 2.6vw;
+    margin-top: -6.2vw;
+    width: 18.2vw;
+  }
+  .footer .footer-items {
+    margin-top: 4vw;
+    margin-left: 20.8vw;
+    font-size: 3.12vw;
+  }
+  .footer .footer__item {
+    margin-top: 1.98vw;
+    inline-size: 23vw;
+  }
+  .footer .logo-container {
+    margin-left: 15.7vw;
+    margin-top: 20vw;
+  }
+  .footer .logo-img {
+    margin-left: 1.54vw;
+    height: 3.6vw;
+  }
+}
+@media screen and (max-width: 481px) {
+  .head {
+    background-image: url("../img/head-background-phone.png");
+  }
+  .head__container {
+    margin-left: 3.4vw;
+  }
+  .head__menu-list {
+    display: none;
   }
 }

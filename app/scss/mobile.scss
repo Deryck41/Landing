@@ -1,0 +1,13 @@
+@media screen and (max-width: 481px) {
+	.head{
+		background-image: url('../img/head-background-phone.png');
+
+		&__container{
+			margin-left: 3.4vw;
+		}
+
+		&__menu-list{
+			display: none;
+		}
+	}
+}
