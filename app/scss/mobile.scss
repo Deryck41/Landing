@@ -1,13 +1,208 @@
 @media screen and (max-width: 481px) {
 	.head{
 		background-image: url('../img/head-background-phone.png');
+		padding-bottom: 0;
+		.burger-menu{
+			position: relative;
+			margin-left: 51.8vw;
+			margin-top: 4.8vw;
+			display: block;
+			z-index: 101;
+			&__line{
+				transition-duration: .7s;
+				margin-top: 2.3vw;
+				display: block;
+				width: 9.2vw;
+				height: 0.64vw;
+				background-color: #FFFFFF;
+			}
+			&_checked span:nth-child(3n-2){
+				transform: translate(0, 3vw) rotate(-45deg);
+			}
+			&_checked span:nth-child(3n){
+				transform: translate(0, -3vw) rotate(45deg);
+			}
+			&_checked span:nth-child(even){
+				transform: translate(-9.2vw, 0);
+				opacity: 0;
+			}
+		}
 
+		.mobile-menu{
+			background-image: url('../img/pop-up-menu-background.png');
+			width: 103.2vw;
+			margin-left: -3.2vw;
+			display: block;
+			transition-duration: .7s;
+			position: absolute;
+			z-index: 101;
+			padding-bottom: 49vw;
+			transform-origin: top;
+			transform: translate(0, -150vw);
+			opacity: 0;
+			&_visible{
+				opacity: 1;
+				transform: translate(0, 0);
+			}
+			&__list-menu{
+				display: flex;
+				flex-direction: column;
+				margin-top: 45.8vw;
+				margin-left: 26.6vw;
+			}
+			&__list-item{
+				margin-top: 9vw;
+				color: #FFF;
+				font-size: 7.25vw;
+				width: 46.8vw;
+				text-align: center;
+			}
+			&__icons-container{
+				margin-top: 25vw;
+				margin-left: 23.1vw;
+				display: flex;
+				flex-direction: row;
+			}
+			&__link-icon{
+				margin-left: 8.6vw;
+			}
+			&__icon{
+				height: 5.7vw;
+			}
+
+		}
+
+		&__logo img{
+			position: relative;
+			z-index: 101;
+		}
 		&__container{
-			margin-left: 3.4vw;
+			position: relative;
+			margin-left: 3.2vw;
+			padding-top: 4.2vw;
 		}
 
 		&__menu-list{
 			display: none;
 		}
+
+		&__left-column{
+			padding-bottom: 17.8vw;
+		}
+
+		&__title-naming{
+			margin-left: 0.6vw;
+			padding-top: 15.4vw;
+			inline-size: 90vw;
+			font-size: 11.5vw;
+			line-height: 11.6vw;
+		}
+
+		&__title-background-text{
+			padding-top: 6vw;
+			font-size: 28.1vw;
+			line-height: 21vw;
+		}
+
+		&__clock-img{
+			width: 114.2vw;
+			height: 104.4vw;
+			margin-left: -9.6vw;
+			margin-top: 45.8vw;
+		}
+
+		&__logo img{
+			width: 30.4vw;
+		}
+
+		.watch-video{
+			margin-left: 7.8vw;
+			margin-top: 101.8vw;
+
+			&__label{
+				padding-left: 4.1vw;
+				padding-top: 5.4vw;
+				font-size: 3.75vw;
+				inline-size: 32vw;
+				line-height: 4.1vw;
+			}
+		}
+
+		.watch-button__triangle{
+			width: 18.2vw;
+		}
+	}
+
+	.title-text{
+		font-size: 5.83vw;
+		line-height: 9.4vw;
+		&_size-big{
+			font-size: 11.43vw;
+		}
+	}
+
+	.background-title{
+		font-size: 10.5vw;
+		line-height: 16vw;
+	}
+
+	.about{
+		padding-bottom: 114.8vw;
+		.title{
+			margin-left: -5.8vw;
+		}
+		.title-text{
+			margin-left: 8.3vw;
+			margin-top: 3.3vw;
+		}
+		.background-title{
+			margin-top: -2vw;
+			margin-left: 1vw;
+		}
+
+		.row-container{
+			flex-direction: unset;
+		}
+		.article{
+			margin-left: 5.2vw;
+			margin-top: 23.2vw;
+			inline-size: 73vw;
+			&_extra-inline-size{
+				inline-size: 77vw;
+				display: inline-block;
+				line-height: 6.15vw;
+			}
+		}
+
+		&__left-column{
+			margin-top: 147.7vw;
+		}
+
+		&__first-img{
+			content: url('../img/photo-about-phone-1.png');
+			margin-left: 8.8vw;
+			width: 72.6vw;
+			height: 67vw;
+		}
+
+		&__second-img{
+			content: url('../img/photo-about-phone-2.png');
+			margin-left: -3.8vw;
+			margin-top: 47vw;
+			width: 76.8vw;
+			height: 49.9vw;
+		}
+
+		&__rectangle{
+			margin-left: 50vw;
+			margin-top: 21vw;
+			width: 38vw;
+			height: 66.4vw;
+		}
+	}
+
+	.article{
+		font-size: 3.93vw;
+		line-height: 6.12vw;
 	}
 }
