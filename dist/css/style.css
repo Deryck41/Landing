@@ -348,10 +348,6 @@ a {
   font-size: 1.62vw;
 }
 
-.rent .title-text {
-  font-size: 2.46vw;
-}
-
 .rent, .cooperation, .news {
   padding-top: 2vw;
   padding-bottom: 6.8vw;
@@ -1177,7 +1173,6 @@ a {
     line-height: 7.9vw;
     margin-top: 2.5vw;
     inline-size: 10vw;
-    font-size: 4.9vw;
   }
   .rent .background-title {
     margin-left: -2.8vw;
@@ -1627,6 +1622,7 @@ a {
     margin-top: 0.6vw;
   }
   .footer {
+    padding-top: 8.1vw;
     padding-bottom: 6vw;
   }
   .footer .footer-logo {
@@ -1799,14 +1795,14 @@ a {
     width: 18.2vw;
   }
   .title-text {
-    font-size: 5.83vw;
+    font-size: 5.83vw !important;
     line-height: 9.4vw;
   }
   .title-text_size-big {
     font-size: 11.43vw;
   }
   .background-title {
-    font-size: 10.5vw;
+    font-size: 10.5vw !important;
     line-height: 16vw;
   }
   .about {
@@ -1864,5 +1860,43 @@ a {
   .article {
     font-size: 3.93vw;
     line-height: 6.12vw;
+  }
+  .rent {
+    padding-bottom: 16vw;
+  }
+  .rent .title-text {
+    line-height: 9.4vw;
+    margin-top: 4.2vw;
+    margin-left: 5.8vw;
+  }
+  .rent .background-title {
+    margin-top: -1.7vw;
+    margin-left: -0.6vw;
+  }
+  .rent .article {
+    font-size: 4.16vw;
+    margin-top: 100.5vw;
+    margin-left: 5.9vw;
+    inline-size: 80vw;
+    line-height: 6.25vw;
+  }
+  .rent .article_less-inline-size {
+    display: inline-block;
+    inline-size: 55vw;
+  }
+  .rent .double-img-container {
+    margin-left: -84.2vw;
+    margin-top: 37.8vw;
+  }
+  .rent .article-img {
+    content: url("../img/photo-rent-mobile.png");
+    width: 74.3vw;
+    height: 52.8vw;
+  }
+  .rent .background-rect {
+    width: 74.4vw;
+    height: 51.8vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
   }
 }

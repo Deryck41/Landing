@@ -134,7 +134,7 @@
 	}
 
 	.title-text{
-		font-size: 5.83vw;
+		font-size: 5.83vw !important;
 		line-height: 9.4vw;
 		&_size-big{
 			font-size: 11.43vw;
@@ -142,7 +142,7 @@
 	}
 
 	.background-title{
-		font-size: 10.5vw;
+		font-size: 10.5vw !important;
 		line-height: 16vw;
 	}
 
@@ -205,4 +205,48 @@
 		font-size: 3.93vw;
 		line-height: 6.12vw;
 	}
+
+	.rent{
+		padding-bottom: 16vw;
+		.title-text{
+			line-height: 9.4vw;
+			margin-top: 4.2vw;
+			margin-left: 5.8vw;
+		}
+		.background-title{
+			margin-top: -1.7vw;
+			margin-left: -.6vw;
+		}
+
+		.article{
+			font-size: 4.16vw;
+			margin-top: 100.5vw;
+			margin-left: 5.9vw;
+			inline-size: 80vw;
+			line-height: 6.25vw;
+			&_less-inline-size{
+				display: inline-block;
+				inline-size: 55vw;
+			}
+		}
+
+		.double-img-container{
+			margin-left: -84.2vw;
+			margin-top: 37.8vw;
+		}
+
+		.article-img{
+			content: url('../img/photo-rent-mobile.png');
+			width: 74.3vw;
+			height: 52.8vw;
+		}
+
+		.background-rect{
+			width: 74.4vw;
+			height: 51.8vw;
+			margin-top: 5vw;
+			margin-left: 10vw;
+		}
+	}
+	
 }
