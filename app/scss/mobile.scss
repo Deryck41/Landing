@@ -248,5 +248,145 @@
 			margin-left: 10vw;
 		}
 	}
-	
+
+	.stages{
+		padding-bottom: 12.8vw;
+		.title{
+			margin-top: -1vw;
+			margin-left: .4vw;
+		}
+
+		.title-text{
+			margin-top: 1.4vw;
+			line-height: 11vw;
+			&_size-big{
+				margin-left: 6.4vw;
+			}
+		}
+
+		.background-title{
+			margin-top: -2.2vw;
+			margin-left: -2.3vw;
+			line-height: 15.7vw;
+			&_size-big{
+				margin-left: 5.5vw;
+			}
+		}
+
+		.container-box{
+			margin-top: 5.4vw;
+			margin-left: -2.8vw;
+		}
+
+		.card{
+			margin-top: 5vw;
+			margin-left: 7vw;
+
+			&_less-margin{
+				margin-top: 3.8vw;
+			}
+
+			&_margin-left{
+				margin-top: 5vw;
+				margin-left: 5.8vw;
+			}
+
+			&_extra-margin-top{
+				margin-top: 11.4vw;
+			}
+
+			&_more-margin-top{
+				margin-top: 11.3vw;
+			}
+
+			&__number{
+				font-size: 11.2vw;
+				margin-top: -1vw;
+				&_orient-top{
+					margin-top: -1vw;
+				}
+				&_margin-left{
+					margin-left: -.6vw;
+				}
+				&_orient-right{
+					margin-left: -.4vw;
+					margin-top: -.6vw;
+				}
+			}
+
+			&__article{
+				margin-left: 2.6vw;
+				margin-top: .4vw;
+				font-size: 3.75vw;
+				inline-size: 76vw;
+				line-height: 4.8vw;
+				&_little-bit-margin{
+					margin-top: .2vw;
+					margin-left: 2.2vw;
+				}
+
+				&_anchor-right{
+					margin-left: 1.6vw;
+				}
+				&_extr-margin{
+					margin-top: .35vw;
+					margin-left: 1.8vw;
+				}
+			}
+		}
+
+		.bottom-line{
+			margin-top: 2.4vw;
+		}
+
+		.card-container{
+			margin-left: 0;
+			display: flex;
+			flex-direction: column;
+			&_orient-left{
+				margin-left: 0;
+				.card{
+					margin-left: 7vw;
+				}
+			}
+		}
+
+		.container-row{
+			&_extra-margin{
+				margin-left: 0;
+			}
+		}
+
+		.container-row:nth-child(1) {
+			.card:nth-child(1) .card-img {
+				content: url('../img/photo-stages-mobile-1.png'); 
+			}
+
+			.card:nth-child(2) .card-img {
+				content: url('../img/photo-stages-mobile-2.png');
+			}
+		}
+
+		.container-row:nth-child(2) {
+			.card:nth-child(1) .card-img {
+				content: url('../img/photo-stages-mobile-3.png');
+			}
+
+			.card:nth-child(2) .card-img { 
+				content: url('../img/photo-stages-mobile-4.png');
+			} 
+		}
+
+		.card-img{
+			width: 91.6vw;
+			height: 49vw;
+			&_anchor-left{
+				margin-left: 0;
+			}
+			&_size-big{
+				width: 92vw;
+			}
+		}
+
+	}
 }
