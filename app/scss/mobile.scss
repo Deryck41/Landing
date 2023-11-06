@@ -139,11 +139,17 @@
 		&_size-big{
 			font-size: 11.43vw;
 		}
+		&_size-medium{
+			font-size: 11.43vw !important;
+		}
 	}
 
 	.background-title{
 		font-size: 10.5vw !important;
 		line-height: 16vw;
+		&_size-mobile-large{
+			font-size: 13.5vw !important;
+		}
 	}
 
 	.about{
@@ -204,6 +210,9 @@
 	.article{
 		font-size: 3.93vw;
 		line-height: 6.12vw;
+		&_size-big{
+			font-size: 5vw !important;
+		}
 	}
 
 	.rent{
@@ -387,6 +396,53 @@
 				width: 92vw;
 			}
 		}
+	}
+	.cooperation{
+		padding-bottom: 72.8vw;
+		.title-text{
+			margin-top: 5.9vw;
+			margin-left: 8.6vw;
+		}
+		.background-title{
+			margin-top: 6vw;
+			margin-left: -.4vw;
+		}
 
+		.left-column{
+			margin-top: 12.8vw;
+			margin-left: 7.5vw;
+		}
+
+		.article-img{
+			width: 79.3vw;
+		}
+
+		.background-rect{
+			width: 82.7vw;
+			height: 56vw;
+			margin-top: 4.4vw;
+		}
+
+		.article{
+			margin-left: 10.8vw;
+			margin-top: 30.5vw;
+			inline-size: 70vw;
+			line-height: 5.6vw;
+		}
+
+		&__contact{
+			margin-left: 11vw;
+			margin-top: 4.8vw;
+		}
+
+		&__phone-icon{
+			width: 5vw;
+		}
+
+		&__phone-number{
+			font-size: 5vw;
+			margin-top: -.1vw;
+			margin-left: .7vw;
+		}
 	}
 }

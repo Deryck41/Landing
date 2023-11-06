@@ -74,10 +74,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Athelas;
   src: url("../fonts/Athelas-Regular.ttf");
 }
-* {
-  color: #FF3232 !important;
-}
-
 body {
   font-family: Athelas;
   font-style: normal;
@@ -1805,9 +1801,15 @@ a {
   .title-text_size-big {
     font-size: 11.43vw;
   }
+  .title-text_size-medium {
+    font-size: 11.43vw !important;
+  }
   .background-title {
     font-size: 10.5vw !important;
     line-height: 16vw;
+  }
+  .background-title_size-mobile-large {
+    font-size: 13.5vw !important;
   }
   .about {
     padding-bottom: 114.8vw;
@@ -1864,6 +1866,9 @@ a {
   .article {
     font-size: 3.93vw;
     line-height: 6.12vw;
+  }
+  .article_size-big {
+    font-size: 5vw !important;
   }
   .rent {
     padding-bottom: 16vw;
@@ -2021,5 +2026,46 @@ a {
   }
   .stages .card-img_size-big {
     width: 92vw;
+  }
+  .cooperation {
+    padding-bottom: 72.8vw;
+  }
+  .cooperation .title-text {
+    margin-top: 5.9vw;
+    margin-left: 8.6vw;
+  }
+  .cooperation .background-title {
+    margin-top: 6vw;
+    margin-left: -0.4vw;
+  }
+  .cooperation .left-column {
+    margin-top: 12.8vw;
+    margin-left: 7.5vw;
+  }
+  .cooperation .article-img {
+    width: 79.3vw;
+  }
+  .cooperation .background-rect {
+    width: 82.7vw;
+    height: 56vw;
+    margin-top: 4.4vw;
+  }
+  .cooperation .article {
+    margin-left: 10.8vw;
+    margin-top: 30.5vw;
+    inline-size: 70vw;
+    line-height: 5.6vw;
+  }
+  .cooperation__contact {
+    margin-left: 11vw;
+    margin-top: 4.8vw;
+  }
+  .cooperation__phone-icon {
+    width: 5vw;
+  }
+  .cooperation__phone-number {
+    font-size: 5vw;
+    margin-top: -0.1vw;
+    margin-left: 0.7vw;
   }
 }
