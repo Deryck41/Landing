@@ -502,9 +502,9 @@ a{
 
 	.arrow-controller{
 		margin-left: 25vw;
-	}
-	#arrow-right{
-		margin-left: 11.3vw;
+		.arrow-img:last-child{
+			margin-left: 11.3vw;
+		}
 	}
 
 	.arrow-img{
