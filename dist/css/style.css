@@ -1649,6 +1649,10 @@ a {
   }
 }
 @media screen and (max-width: 481px) {
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+  }
   .head {
     background-image: url("../img/head-background-phone.png");
     padding-bottom: 0;
@@ -1799,7 +1803,7 @@ a {
     line-height: 9.4vw;
   }
   .title-text_size-big {
-    font-size: 11.43vw;
+    font-size: 11.43vw !important;
   }
   .title-text_size-medium {
     font-size: 11.43vw !important;
@@ -1822,6 +1826,12 @@ a {
   }
   .background-title_size-medium {
     font-size: 13.5vw !important;
+  }
+  .background-title_size-big {
+    font-size: 13.5vw !important;
+  }
+  .background-title_size-mobile-extra-large {
+    font-size: 17.7vw !important;
   }
   .about {
     padding-bottom: 114.8vw;
@@ -2211,5 +2221,213 @@ a {
   }
   .models__size-description .right-ul .description__item {
     padding-left: 1.1vw;
+  }
+  .news {
+    padding-bottom: 18vw;
+  }
+  .news .title {
+    margin-left: 0;
+    text-align: left;
+  }
+  .news .title .title-text {
+    margin-left: 7.5vw;
+    margin-top: 4.4vw;
+    line-height: 6.8vw;
+  }
+  .news .title .title-text_size-big {
+    margin-top: 0;
+    margin-left: 3.6vw;
+  }
+  .news .title .background-title {
+    margin-left: 1.6vw;
+    margin-top: 1vw;
+  }
+  .news .title .background-title_size-big {
+    margin-top: 2.7vw;
+    margin-left: 2.1vw;
+  }
+  .news__item {
+    margin-top: 12.4vw;
+  }
+  .news .news-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 35.3vw;
+    margin-left: 1.2vw;
+  }
+  .news .news-img {
+    width: 91.65vw;
+    height: 48.85vw;
+  }
+  .news .date-container__number {
+    font-size: 10.75vw;
+    margin-top: -1.1vw;
+    margin-left: 0.2vw;
+  }
+  .news .date-container__number_less-margin {
+    margin-left: 0;
+    margin-top: -0.8vw;
+  }
+  .news .date-container__month {
+    font-size: 4.6vw;
+    margin-left: 0.6vw;
+    margin-top: 0.4vw;
+  }
+  .news .date-container__month_less-margin {
+    margin-top: 0;
+  }
+  .news .news-article {
+    margin-top: 1.6vw;
+    margin-left: 3.5vw;
+    font-size: 3.76vw;
+    inline-size: 77vw;
+    line-height: 4.8vw;
+  }
+  .news .news-article_anchor-left {
+    margin-left: 4.4vw;
+    margin-top: 1.4vw;
+  }
+  .news .news-article .inl-s-l {
+    display: inline;
+    inline-size: auto;
+  }
+  .news .news-link {
+    width: 30vw;
+    font-size: 3.77vw;
+    margin-left: 13.2vw;
+    margin-top: 4.2vw;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+  }
+  .news .news-link-extr-margin {
+    margin-left: 14.8vw;
+  }
+  .news .news-expand-button {
+    margin-left: 30.2vw;
+    margin-top: 11.6vw;
+    height: 10.2vw;
+    border: 1.5px solid #000;
+    font-size: 2.92vw;
+    width: 39.6vw;
+  }
+  .contacts {
+    background: url("../img/contacts-background-mobile.png");
+    padding-bottom: 193vw;
+  }
+  .contacts .contacts-form {
+    margin-top: 14.5vw;
+    margin-left: 7.5vw;
+  }
+  .contacts .contacts-border {
+    content: url("../img/contacts-border-mobile.png");
+    width: 85.2vw;
+    height: 104.5vw;
+    margin-left: 0;
+    margin-top: 0.3vw;
+  }
+  .contacts .title-text {
+    font-size: 10vw !important;
+    margin-left: 15.2vw;
+    margin-top: 8.6vw;
+  }
+  .contacts .background-title {
+    font-size: 16.7vw !important;
+    margin-top: 7.8vw;
+    margin-left: 8.2vw;
+  }
+  .contacts .contacts-items {
+    margin-left: 14vw;
+  }
+  .contacts .contacts-icon {
+    width: 3.9vw;
+    margin-top: 1.4vw;
+  }
+  .contacts .contacts-icon_small {
+    width: 3.8vw;
+    height: 3.9vw;
+    margin-top: 0.4vw;
+    margin-left: 1.4vw;
+  }
+  .contacts .contacts-icon-phone {
+    margin-top: 0.6vw;
+  }
+  .contacts .contacts-desc {
+    font-size: 4.6vw;
+    inline-size: 60vw;
+    line-height: 5.7vw;
+    padding-left: 0.8vw;
+  }
+  .contacts .contacts-item {
+    margin-top: 1.2vw;
+    margin-left: 1vw;
+  }
+  .contacts .contacts-item_less-margin {
+    margin-top: -0.5vw;
+  }
+  .contacts .contacts-item_less-margin .contacts-icon {
+    margin-top: 0.6vw !important;
+  }
+  .contacts .contacts-item-non-m-left {
+    margin-left: 0;
+  }
+  .contacts .contacts-item-phone {
+    margin-top: 2vw;
+  }
+  .contacts .contacts-item-mail {
+    margin-top: 1.4vw;
+  }
+  .contacts .contacts-item_a-bit-margin .contacts-icon {
+    margin-top: 0.8vw;
+  }
+  .contacts .contacts-group {
+    margin-top: 5vw;
+  }
+  .contacts .button-border {
+    margin-left: 13.4vw;
+    margin-top: 80.4vw;
+    width: 60.5vw;
+  }
+  .contacts .contacts-button {
+    margin-left: 28vw;
+    margin-top: 84vw;
+    font-size: 2.93vw;
+  }
+  .footer .main-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer .footer-logo {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-left: 4.2vw;
+    margin-top: 5.2vw;
+    width: 29.4vw;
+  }
+  .footer .footer-items {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-left: -3.4vw;
+    margin-top: 7.8vw;
+  }
+  .footer .logo-container {
+    margin-left: 20.6vw;
+    margin-top: 6.4vw;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .footer .logo-img {
+    height: 5.6vw;
+    margin-left: 7.4vw;
+  }
+  .footer__item {
+    margin-left: 7.81vw;
+    font-size: 3.75vw;
+    display: inline-block;
+    inline-size: auto !important;
   }
 }
